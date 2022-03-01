@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.donut-wrapper
+{
+  width: 240px;
+  height: 240px;
+}
+.legends-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+.legend-outer {
+  font-size: 12px;
+  text-align: center;
+}
+.legend-outer img {
+  height: 36px;
+  width: 36px;
+  object-fit: contain;
+  margin-bottom: 7px;
+}
+.legend-outer p {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 46px;
+  text-transform: capitalize;
+  color: #263238;
+  
+  margin-bottom: 5px;
+}
+.legend-outer small {
+  color: #546E7A;
+  font-size: 12px;
+}
